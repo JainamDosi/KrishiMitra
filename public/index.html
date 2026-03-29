@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KrishiMitra — AI-Powered Agricultural Advisory</title>
+    <meta name="description" content="KrishiMitra provides AI-powered crop disease detection, market price predictions, government scheme advisory, and pesticide recommendations for Indian farmers in 10+ languages.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- Animated Background Orbs -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-seedling"></i>
+                </div>
+                <div class="logo-text">
+                    <h2>KrishiMitra</h2>
+                    <span class="logo-tag">AI Farm Advisor</span>
+                </div>
+            </div>
+
+            <ul class="nav-links">
+                <li class="nav-item active" data-target="disease-panel">
+                    <div class="nav-icon"><i class="fa-solid fa-microscope"></i></div>
+                    <div class="nav-label">
+                        <span>Disease Detection</span>
+                        <small>Leaf image diagnosis</small>
+                    </div>
+                </li>
+                <li class="nav-item" data-target="price-panel">
+                    <div class="nav-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <div class="nav-label">
+                        <span>Price Analytics</span>
+                        <small>Market forecasting</small>
+                    </div>
+                </li>
+                <li class="nav-item" data-target="scheme-panel">
+                    <div class="nav-icon"><i class="fa-solid fa-landmark"></i></div>
+                    <div class="nav-label">
+                        <span>Scheme Advisor</span>
+                        <small>Govt scheme RAG</small>
+                    </div>
+                </li>
+                <li class="nav-item" data-target="pesticide-panel">
+                    <div class="nav-icon"><i class="fa-solid fa-flask-vial"></i></div>
+                    <div class="nav-label">
+                        <span>Pesticide Guide</span>
+                        <small>Crop protection</small>
+                    </div>
+                </li>
+                <li class="nav-item" data-target="chat-panel">
+                    <div class="nav-icon"><i class="fa-solid fa-robot"></i></div>
+                    <div class="nav-label">
+                        <span>Ask KrishiMitra</span>
+                        <small>AI chat assistant</small>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <div class="lang-selector">
+                    <label for="lang"><i class="fa-solid fa-globe"></i> Language</label>
+                    <select id="lang" class="glass-select">
+                        <option value="English">English</option>
+                        <option value="हिन्दी (Hindi)">हिन्दी (Hindi)</option>
+                        <option value="தமிழ் (Tamil)">தமிழ் (Tamil)</option>
+                        <option value="తెలుగు (Telugu)">తెలుగు (Telugu)</option>
+                        <option value="मराठी (Marathi)">मराठी (Marathi)</option>
+                        <option value="বাংলা (Bengali)">বাংলা (Bengali)</option>
+                        <option value="ಕನ್ನಡ (Kannada)">ಕನ್ನಡ (Kannada)</option>
+                        <option value="ગુજરાતી (Gujarati)">ગુજરાતી (Gujarati)</option>
+                    </select>
+                </div>
+                <div class="powered-by">
+                    <span>Powered by</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png" alt="Databricks" class="db-logo">
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="top-header">
+                <div class="header-left">
+                    <button class="menu-toggle" id="menu-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div>
+                        <h1 class="page-title" id="page-title">Disease Detection</h1>
+                        <p class="page-subtitle" id="page-subtitle">AI-Powered Crop Diagnostics</p>
+                    </div>
+                </div>
+                <div class="header-badges">
+                    <span class="badge"><i class="fa-solid fa-database"></i> Delta Lake</span>
+                    <span class="badge"><i class="fa-solid fa-brain"></i> MLflow</span>
+                    <span class="badge"><i class="fa-solid fa-magnifying-glass-chart"></i> FAISS RAG</span>
+                </div>
+            </header>
+
+            <div class="panels-container">
+                <!-- ═══════════════ Disease Panel ═══════════════ -->
+                <section id="disease-panel" class="panel active">
+                    <div class="glass-card upload-section">
+                        <div class="card-header">
+                            <i class="fa-solid fa-camera-retro"></i>
+                            <div>
+                                <h3>Upload Leaf Image</h3>
+                                <p class="card-desc">Upload a clear photo of the affected crop leaf for AI diagnosis.</p>
+                            </div>
+                        </div>
+                        <div class="drop-zone" id="drop-zone">
+                            <div class="drop-icon-circle">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                            </div>
+                            <span class="drop-text">Drag & Drop or <strong>Click to Upload</strong></span>
+                            <span class="drop-hint">Supports JPG, PNG, WEBP</span>
+                            <input type="file" id="leaf-image" accept="image/*" hidden>
+                        </div>
+                        <img id="image-preview" class="hidden image-preview">
+                        <button class="btn btn-primary btn-glow mt-4" id="btn-predict-disease" disabled>
+                            <i class="fa-solid fa-wand-magic-sparkles"></i> Detect Disease
+                        </button>
+                    </div>
+
+                    <div class="results-grid hidden" id="disease-results">
+                        <div class="glass-card stat-card stat-disease">
+                            <div class="stat-icon"><i class="fa-solid fa-virus"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Detected Disease</span>
+                                <span class="stat-value" id="res-disease">—</span>
+                            </div>
+                        </div>
+                        <div class="glass-card stat-card stat-crop">
+                            <div class="stat-icon"><i class="fa-solid fa-leaf"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Crop Identified</span>
+                                <span class="stat-value" id="res-crop">—</span>
+                            </div>
+                        </div>
+                        <div class="glass-card stat-card stat-confidence">
+                            <div class="stat-icon"><i class="fa-solid fa-gauge-high"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Confidence</span>
+                                <span class="stat-value" id="res-confidence">—</span>
+                            </div>
+                        </div>
+                        <div class="glass-card stat-card stat-status">
+                            <div class="stat-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                            <div class="stat-info">
+                                <span class="stat-label">Health Status</span>
+                                <span class="stat-value" id="res-status">—</span>
+                            </div>
+                        </div>
+                        <div class="glass-card treatment-card full-span">
+                            <div class="card-header">
+                                <i class="fa-solid fa-prescription-bottle-medical"></i>
+                                <h3>Treatment & Prevention</h3>
+                            </div>
+                            <div id="res-treatment" class="markdown-body"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════ Price Panel ═══════════════ -->
+                <section id="price-panel" class="panel">
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-filter"></i>
+                            <h3>Market Analysis Filters</h3>
+                        </div>
+                        <div class="filters-grid">
+                            <div class="form-group">
+                                <label>🌾 Commodity</label>
+                                <select id="price-commodity" class="glass-select"></select>
+                            </div>
+                            <div class="form-group">
+                                <label>📍 State</label>
+                                <select id="price-state" class="glass-select">
+                                    <option value="">All States</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>🏪 Market</label>
+                                <select id="price-market" class="glass-select">
+                                    <option value="">All Markets</option>
+                                </select>
+                            </div>
+                            <div class="form-group align-end">
+                                <button class="btn btn-primary btn-glow" id="btn-analyze-price">
+                                    <i class="fa-solid fa-chart-pie"></i> Analyze
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="price-results hidden" id="price-results">
+                        <div class="glass-card mt-4 full-width">
+                            <div class="card-header">
+                                <i class="fa-solid fa-chart-area"></i>
+                                <h3>Price Trend & Forecast</h3>
+                            </div>
+                            <div id="plot-trend" class="plot-container"></div>
+                        </div>
+
+                        <div class="grid-2col mt-4">
+                             <div class="glass-card">
+                                <div class="card-header">
+                                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                    <h3>AI Price Forecast</h3>
+                                </div>
+                                <div id="res-price-summary" class="markdown-body"></div>
+                            </div>
+                            <div class="glass-card">
+                                <div class="card-header">
+                                    <i class="fa-solid fa-table-list"></i>
+                                    <h3>Latest Prices (₹/Quintal)</h3>
+                                </div>
+                                <div class="table-container">
+                                    <table id="price-table">
+                                        <thead>
+                                            <tr><th>Date</th><th>State</th><th>Market</th><th>Price</th></tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════ Scheme Panel ═══════════════ -->
+                <section id="scheme-panel" class="panel">
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                            <h3>Ask about Government Schemes</h3>
+                        </div>
+                        <p class="card-desc mb-3">Ask in any language about PM-KISAN, PMFBY, KCC, Soil Health Card, e-NAM, and 20+ more schemes.</p>
+                        <textarea id="scheme-query" class="glass-textarea" rows="3" placeholder="E.g., How do I apply for PM-KISAN? What are the benefits of Soil Health Card?"></textarea>
+                        <div class="mt-3 flex gap-2">
+                            <button class="btn btn-primary btn-glow" id="btn-ask-scheme">
+                                <i class="fa-solid fa-search"></i> Get Answer
+                            </button>
+                            <button class="btn btn-outline" id="btn-list-schemes">
+                                <i class="fa-solid fa-list-ul"></i> Browse All Schemes
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="glass-card mt-4 hidden" id="scheme-result-container">
+                        <div class="card-header">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <h3>Answer</h3>
+                        </div>
+                        <div id="res-scheme" class="markdown-body"></div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════ Pesticide Panel ═══════════════ -->
+                <section id="pesticide-panel" class="panel">
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-flask-vial"></i>
+                            <h3>Pesticide & Fertilizer Finder</h3>
+                        </div>
+                        <div class="filters-grid">
+                            <div class="form-group">
+                                <label>🌾 Crop</label>
+                                <select id="pest-crop" class="glass-select"></select>
+                            </div>
+                            <div class="form-group">
+                                <label>🌱 Growth Stage</label>
+                                <select id="pest-stage" class="glass-select">
+                                    <option value="">Any Stage</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>🐛 Problem Description</label>
+                                <input type="text" id="pest-problem" class="glass-input" placeholder="e.g. yellow leaves, aphids, fungus">
+                            </div>
+                        </div>
+                        <div class="mt-3 flex gap-2 justify-between align-center">
+                            <label class="toggle-label">
+                                <input type="checkbox" id="pest-organic">
+                                <span class="toggle-switch"></span>
+                                <span>🌿 Prefer Organic Solutions</span>
+                            </label>
+                            <button class="btn btn-primary btn-glow" id="btn-get-pest-rec">
+                                <i class="fa-solid fa-pills"></i> Get Recommendation
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="glass-card mt-4 hidden" id="pest-result-container">
+                        <div class="card-header">
+                            <i class="fa-solid fa-clipboard-check"></i>
+                            <h3>Advisory</h3>
+                        </div>
+                        <div id="res-pest" class="markdown-body"></div>
+                    </div>
+                </section>
+
+                <!-- ═══════════════ Chat Panel ═══════════════ -->
+                <section id="chat-panel" class="panel chat-panel-section">
+                    <div class="chat-container glass-card">
+                        <div class="chat-header">
+                            <div class="chat-avatar">
+                                <i class="fa-solid fa-seedling"></i>
+                            </div>
+                            <div>
+                                <h3>KrishiMitra Assistant</h3>
+                                <span class="chat-status"><span class="status-dot"></span> Online</span>
+                            </div>
+                        </div>
+                        <div class="chat-messages" id="chat-messages">
+                            <div class="message bot">
+                                <div class="msg-avatar"><i class="fa-solid fa-seedling"></i></div>
+                                <div class="msg-bubble">Namaste! 🙏 I am KrishiMitra, your AI farming assistant. Ask me anything about crops, diseases, prices, government schemes, or pesticides!</div>
+                            </div>
+                        </div>
+                        <div class="chat-input-area">
+                            <input type="text" id="chat-input" class="glass-input" placeholder="Type your message here...">
+                            <button class="btn btn-send" id="btn-send-chat">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loader" class="loader-overlay hidden">
+        <div class="loader-content">
+            <div class="spinner-ring">
+                <div></div><div></div><div></div><div></div>
+            </div>
+            <p>Analyzing with AI...</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

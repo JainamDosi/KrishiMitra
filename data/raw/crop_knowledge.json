@@ -1,0 +1,230 @@
+[
+    {
+        "disease_class": "Apple___Apple_scab",
+        "treatment": "Apply Captan or Myclobutanil.",
+        "prevention": "Rake up fallen leaves, prune trees for aeration.",
+        "organic": "Liquid copper or sulfur."
+    },
+    {
+        "disease_class": "Apple___Black_rot",
+        "treatment": "Apply Mancozeb or Ziram.",
+        "prevention": "Remove dead wood and mummified fruit.",
+        "organic": "Bordeaux mixture."
+    },
+    {
+        "disease_class": "Apple___Cedar_apple_rust",
+        "treatment": "Apply Myclobutanil.",
+        "prevention": "Remove nearby red cedar hosts.",
+        "organic": "Sulfur sprays."
+    },
+    {
+        "disease_class": "Apple___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Blueberry___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Cherry_(including_sour)___Powdery_mildew",
+        "treatment": "Apply Myclobutanil.",
+        "prevention": "Prune for air circulation.",
+        "organic": "Potassium bicarbonate."
+    },
+    {
+        "disease_class": "Cherry_(including_sour)___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+        "treatment": "Apply Azoxystrobin + Propiconazole.",
+        "prevention": "Tillage to bury residue. Resistant hybrids.",
+        "organic": "Crop rotation. Residue management."
+    },
+    {
+        "disease_class": "Corn_(maize)___Common_rust_",
+        "treatment": "Apply Propiconazole or Mancozeb fungicide.",
+        "prevention": "Plant resistant hybrids. Early planting.",
+        "organic": "Sulfur-based fungicide."
+    },
+    {
+        "disease_class": "Corn_(maize)___Northern_Leaf_Blight",
+        "treatment": "Apply Azoxystrobin. Remove crop residue.",
+        "prevention": "Use resistant varieties. Rotate with non-cereals.",
+        "organic": "Trichoderma-based biocontrol. Deep plowing."
+    },
+    {
+        "disease_class": "Corn_(maize)___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Grape___Black_rot",
+        "treatment": "Apply Mancozeb before flowering.",
+        "prevention": "Remove mummified berries. Prune for air circulation.",
+        "organic": "Copper-based spray. Sanitation."
+    },
+    {
+        "disease_class": "Grape___Esca_(Black_Measles)",
+        "treatment": "Remove severely affected vines.",
+        "prevention": "Avoid large pruning wounds. Protect wounds with sealant.",
+        "organic": "Trichoderma application to pruning wounds."
+    },
+    {
+        "disease_class": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+        "treatment": "Apply Mancozeb or Carbendazim.",
+        "prevention": "Good canopy management. Remove fallen leaves.",
+        "organic": "Bordeaux mixture spray. Neem oil."
+    },
+    {
+        "disease_class": "Grape___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Orange___Haunglongbing_(Citrus_greening)",
+        "treatment": "No cure. Remove infected trees. Control psyllid vectors with Imidacloprid.",
+        "prevention": "Use disease-free nursery stock.",
+        "organic": "Neem oil for psyllid control. Nutritional sprays."
+    },
+    {
+        "disease_class": "Peach___Bacterial_spot",
+        "treatment": "Copper-based spray during dormant season.",
+        "prevention": "Plant resistant varieties. Avoid overhead irrigation.",
+        "organic": "Copper hydroxide at petal fall."
+    },
+    {
+        "disease_class": "Peach___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Pepper,_bell___Bacterial_spot",
+        "treatment": "Copper-based bactericide + Mancozeb.",
+        "prevention": "Use disease-free transplants. Crop rotation.",
+        "organic": "Copper spray. Bacillus subtilis."
+    },
+    {
+        "disease_class": "Pepper,_bell___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Potato___Early_blight",
+        "treatment": "Apply Chlorothalonil or Mancozeb.",
+        "prevention": "Crop rotation, maintain adequate nitrogen and phosphorus.",
+        "organic": "Copper fungicides, Bacillus subtilis."
+    },
+    {
+        "disease_class": "Potato___Late_blight",
+        "treatment": "Mancozeb 75% WP + Metalaxyl 8% WP.",
+        "prevention": "Plant certified seed tubers, improve drainage.",
+        "organic": "Bordeaux mixture. Destroy volunteer potato plants."
+    },
+    {
+        "disease_class": "Potato___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Raspberry___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Soybean___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Squash___Powdery_mildew",
+        "treatment": "Apply Myclobutanil or Sulfur fungicide.",
+        "prevention": "Space plants for air circulation. Avoid overhead watering.",
+        "organic": "Baking soda spray. Neem oil. Milk spray (1:9)."
+    },
+    {
+        "disease_class": "Strawberry___Leaf_scorch",
+        "treatment": "Apply Captan or Thiram fungicide. Remove affected leaves.",
+        "prevention": "Use resistant cultivars. Renovate beds after harvest.",
+        "organic": "Copper-based spray. Remove old foliage."
+    },
+    {
+        "disease_class": "Strawberry___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    },
+    {
+        "disease_class": "Tomato___Bacterial_spot",
+        "treatment": "Apply Copper-based bactericide + Mancozeb.",
+        "prevention": "Use disease-free transplants. Crop rotation. Avoid overhead watering.",
+        "organic": "Copper spray. Bacillus subtilis application."
+    },
+    {
+        "disease_class": "Tomato___Early_blight",
+        "treatment": "Apply Chlorothalonil or Mancozeb.",
+        "prevention": "Crop rotation, remove weeds, space plants.",
+        "organic": "Copper fungicides, Trichoderma viride."
+    },
+    {
+        "disease_class": "Tomato___Late_blight",
+        "treatment": "Mancozeb 75% WP + Metalaxyl 8% WP.",
+        "prevention": "Avoid waterlogging, destroy infected remains.",
+        "organic": "Bordeaux mixture (1%)."
+    },
+    {
+        "disease_class": "Tomato___Leaf_Mold",
+        "treatment": "Apply Difenoconazole or Azoxystrobin.",
+        "prevention": "Ensure good ventilation in greenhouses, prune lower leaves.",
+        "organic": "Potassium bicarbonate spray, neem oil."
+    },
+    {
+        "disease_class": "Tomato___Septoria_leaf_spot",
+        "treatment": "Apply Chlorothalonil.",
+        "prevention": "Mulching, crop rotation.",
+        "organic": "Copper-based fungicide."
+    },
+    {
+        "disease_class": "Tomato___Spider_mites Two-spotted_spider_mite",
+        "treatment": "Apply Abamectin or Spiromesifen.",
+        "prevention": "Keep plants well-watered to reduce dust.",
+        "organic": "Neem oil, releasing predatory mites."
+    },
+    {
+        "disease_class": "Tomato___Target_Spot",
+        "treatment": "Apply Azoxystrobin or Chlorothalonil.",
+        "prevention": "Improve air circulation, remove old infected leaves.",
+        "organic": "Copper fungicides."
+    },
+    {
+        "disease_class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "treatment": "Control Whiteflies using Imidacloprid.",
+        "prevention": "Plant resistant varieties, use UV-reflective mulches.",
+        "organic": "Neem oil (10,000 ppm), yellow sticky traps for vector control."
+    },
+    {
+        "disease_class": "Tomato___Tomato_mosaic_virus",
+        "treatment": "No cure. Uproot and destroy infected plants.",
+        "prevention": "Use certified virus-free seeds, wash hands/tools with soap.",
+        "organic": "Sanitation, control weeds."
+    },
+    {
+        "disease_class": "Tomato___healthy",
+        "treatment": "No treatment required. Crop is healthy.",
+        "prevention": "Maintain proper scheduled watering and nutrient management.",
+        "organic": "Continue routine organic composting and FYM."
+    }
+]

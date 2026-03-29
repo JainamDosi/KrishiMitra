@@ -1,0 +1,9 @@
+command:
+  - python
+  - server.py
+
+env:
+  - name: SARVAM_API_KEY
+    valueFrom: secret
+  - name: DATA_GOV_API_KEY
+    valueFrom: secret

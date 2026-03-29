@@ -1,0 +1,489 @@
+[
+  {
+    "scheme_id": "PM-KISAN",
+    "name": "प्रधानमंत्री किसान सम्मान निधि",
+    "name_en": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "category": "Income Support",
+    "description": "Central Sector scheme providing direct income support of Rs.6,000 per year to all landholding farmer families across India. The amount is transferred directly to beneficiary bank accounts via Direct Benefit Transfer (DBT) in three equal installments of Rs.2,000 each every four months.",
+    "eligibility": [
+      "All land-holding farmer families (husband, wife, and minor children) owning cultivable land as per state land records",
+      "Must have a valid Aadhaar number linked to bank account",
+      "Must complete PM-KISAN e-KYC",
+      "Must be a resident of India"
+    ],
+    "exclusion_criteria": "Institutional landholders, former/current Ministers, MPs, MLAs, government employees (except MTS/Group D), income tax payers, professionals (doctors, engineers, lawyers, CAs) are excluded.",
+    "benefits": "Rs.6,000 per year in 3 installments of Rs.2,000 each (April-July, August-November, December-March). 100% funded by Government of India. Direct transfer to Aadhaar-seeded bank accounts.",
+    "how_to_apply": "1. Visit pmkisan.gov.in portal\n2. Click on 'New Farmer Registration'\n3. Enter Aadhaar number and captcha\n4. Fill in personal, bank, and land details\n5. Complete e-KYC verification\n6. Alternatively, visit nearest Common Service Centre (CSC) for assisted registration",
+    "documents_required": ["Aadhaar Card", "Bank Account (Aadhaar-seeded)", "Land Ownership Records", "Mobile Number"],
+    "official_url": "https://pmkisan.gov.in",
+    "helpline": "155261 / 011-24300606",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "PMFBY",
+    "name": "प्रधानमंत्री फसल बीमा योजना",
+    "name_en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": "Crop Insurance",
+    "description": "Comprehensive crop insurance scheme providing financial protection to farmers against crop loss or damage due to natural calamities, pests, and diseases. Covers risks from pre-sowing to post-harvest stages including drought, floods, hailstorms, cyclones, and pest/disease attacks.",
+    "eligibility": [
+      "All farmers including sharecroppers and tenant farmers with insurable interest in notified crops",
+      "Participation is voluntary for all farmers",
+      "Must possess valid land ownership or tenancy/sharecropping agreement documents",
+      "Available in notified areas for notified crops only"
+    ],
+    "exclusion_criteria": "Not applicable to crops not notified under the scheme in a particular area/season.",
+    "benefits": "Highly subsidized premium rates: Kharif crops - 2% of sum insured, Rabi crops - 1.5% of sum insured, Commercial/Horticultural crops - 5% of sum insured. Government pays the remaining actuarial premium. Full sum insured coverage with no capping on claims.",
+    "how_to_apply": "1. Visit pmfby.gov.in portal and register online\n2. Apply through nearest Common Service Centre (CSC)\n3. Apply via your bank (especially if you have a KCC account)\n4. Contact empanelled insurance companies directly\n5. Ensure application is made before the notified cut-off date for your crop/area",
+    "documents_required": ["Aadhaar Card / Voter ID / PAN Card", "Land Records / Records of Right / Land Possession Certificate", "Bank Passbook / Account Details", "Crop Sowing Declaration", "Proof of Address"],
+    "official_url": "https://pmfby.gov.in",
+    "helpline": "1800-200-7710 (Toll Free)",
+    "coverage": "Pan India (state participation voluntary)"
+  },
+  {
+    "scheme_id": "KCC",
+    "name": "किसान क्रेडिट कार्ड",
+    "name_en": "Kisan Credit Card (KCC)",
+    "category": "Agricultural Credit",
+    "description": "Government initiative providing farmers with timely and adequate credit for crop cultivation, post-harvest expenses, produce marketing, household consumption, and maintenance of farm assets. Offers flexible credit at subsidized interest rates through a revolving credit facility valid for 5 years.",
+    "eligibility": [
+      "Individual farmers who are owner-cultivators",
+      "Joint borrowers and joint cultivators",
+      "Sharecroppers, tenant farmers, and oral lessees",
+      "Self-Help Groups (SHGs) or Joint Liability Groups (JLGs) of farmers",
+      "Farmers engaged in allied activities like animal husbandry, fisheries"
+    ],
+    "exclusion_criteria": "Defaulters of any financial institution are generally not eligible.",
+    "benefits": "Loans up to Rs.3 lakh at 7% per annum interest rate. Additional 3% interest subvention for prompt repayment (effective rate as low as 4%). Collateral-free loans up to Rs.2 lakh. Card valid for 5 years with annual review. Covers crop loans, term loans, and consumption needs. Includes personal accident insurance of Rs.50,000 (death) and Rs.25,000 (disability).",
+    "how_to_apply": "1. Visit nearest branch of any nationalized bank, cooperative bank, or regional rural bank\n2. Fill out the KCC application form (available online on bank websites)\n3. Submit required documents\n4. Bank verifies documents and assesses credit limit\n5. Card issued within 15 days of application\n6. Can also apply online through JanSamarth portal (jansamarth.in)",
+    "documents_required": ["Aadhaar Card / Voter ID / PAN Card / Passport", "Land Ownership Documents (certified by revenue authorities)", "Proof of Address", "Passport-size Photographs", "Cropping Pattern and Acreage Details"],
+    "official_url": "https://www.jansamarth.in",
+    "helpline": "Contact your nearest bank branch",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "E-NAM",
+    "name": "राष्ट्रीय कृषि बाज़ार",
+    "name_en": "National Agriculture Market (e-NAM)",
+    "category": "Market Access",
+    "description": "Pan-India electronic trading portal integrating existing APMC mandis into a unified national market. Enables 'One Nation, One Market' for agricultural commodities through transparent online price discovery, reducing information asymmetry and eliminating middlemen exploitation.",
+    "eligibility": [
+      "All farmers can register directly via the e-NAM portal or mobile app",
+      "Traders and commission agents with valid licenses",
+      "Farmer Producer Organizations (FPOs) and Farmer Producer Companies",
+      "State must have reformed APMC Act with single trading license, single-point market fee, and e-auction provisions"
+    ],
+    "exclusion_criteria": "Available only in states/UTs that have completed required APMC reforms.",
+    "benefits": "Better price realization through wider buyer access. Transparent online auction process. Direct payment to farmer's bank account. Free quality testing (assaying) at e-NAM mandis. Real-time market information via mobile app. Reduced transaction costs. Over 1,361 mandis integrated across 23 states.",
+    "how_to_apply": "1. Visit www.enam.gov.in or download e-NAM mobile app\n2. Click on 'Registration' for farmers\n3. Enter Aadhaar, mobile number, and bank details\n4. Select your nearest e-NAM linked mandi\n5. Start selling produce through online auctions",
+    "documents_required": ["Aadhaar Card", "Bank Account Details", "Mobile Number", "Land Records (optional for farmers)"],
+    "official_url": "https://www.enam.gov.in",
+    "helpline": "1800-270-0224 (Toll Free)",
+    "coverage": "23 States and 3 UTs (1,361+ mandis)"
+  },
+  {
+    "scheme_id": "SHC",
+    "name": "मृदा स्वास्थ्य कार्ड योजना",
+    "name_en": "Soil Health Card Scheme",
+    "category": "Soil Health",
+    "description": "Government scheme providing farmers with a detailed Soil Health Card containing a report on nutrient status of their soil along with recommendations for appropriate fertilizer dosages. Cards are issued every 2-3 years after scientific testing of soil samples to promote balanced nutrient management.",
+    "eligibility": [
+      "All farmers in India are eligible regardless of landholding size",
+      "No complex eligibility criteria",
+      "Available for all agricultural land"
+    ],
+    "exclusion_criteria": "None. Open to all farmers.",
+    "benefits": "Free soil testing and analysis. Detailed report on soil nutrients (N, P, K, pH, organic carbon, micronutrients). Crop-wise fertilizer recommendations. Helps optimize fertilizer use and reduce costs by 8-10%. Improves crop productivity. Promotes sustainable soil management.",
+    "how_to_apply": "1. Visit soilhealth.dac.gov.in portal\n2. Register using name, mobile number, and land information\n3. Submit request for soil testing\n4. OR contact local District/Block Agriculture Officer\n5. Agriculture department staff will collect soil sample from your field\n6. Report generated and card issued after laboratory analysis",
+    "documents_required": ["Aadhaar Card", "Land Ownership Documents (Khasra/Khatauni)", "Mobile Number", "Bank Account Details (optional)"],
+    "official_url": "https://soilhealth.dac.gov.in",
+    "helpline": "Contact District Agriculture Office",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "PM-KUSUM",
+    "name": "प्रधानमंत्री किसान ऊर्जा सुरक्षा एवं उत्थान महाभियान",
+    "name_en": "Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan (PM-KUSUM)",
+    "category": "Solar Energy for Agriculture",
+    "description": "Flagship scheme promoting solar energy in agriculture to provide reliable energy for irrigation, reduce dependence on diesel pumps and grid electricity, generate additional income by selling surplus solar power, and reduce carbon footprint of farming. Extended until March 2026.",
+    "eligibility": [
+      "Individual farmers with agricultural land",
+      "Groups of farmers and Farmer Producer Organizations (FPOs)",
+      "Cooperatives, Panchayats, and Water User Associations (WUAs)",
+      "For Component A: land can be barren, fallow, or cultivable",
+      "State-specific eligibility criteria may apply"
+    ],
+    "exclusion_criteria": "Eligibility varies by state; check with state nodal agency.",
+    "benefits": "Farmer pays only 10% of cost; 60% covered by central and state subsidies; 30% via bank loan. Component A: decentralized solar power plants (up to 2 MW) on barren/fallow land. Component B: standalone off-grid solar water pumps replacing diesel pumps. Component C: solarization of existing grid-connected pumps. Earn income by selling surplus electricity to grid. Higher subsidies for special category states.",
+    "how_to_apply": "1. Visit the PM-KUSUM national portal or state Renewable Energy Department website\n2. Register and create an account\n3. Fill online application with Aadhaar, land documents, bank details\n4. Application verified by local authorities\n5. Work with authorized empanelled vendors for installation after approval",
+    "documents_required": ["Aadhaar Card", "Land Ownership Documents", "Bank Account Details", "Electricity Connection Details (for Component C)", "Recent Photographs"],
+    "official_url": "https://pmkusum.mnre.gov.in",
+    "helpline": "Contact State Renewable Energy Nodal Agency",
+    "coverage": "Pan India (implemented through state agencies)"
+  },
+  {
+    "scheme_id": "RKVY",
+    "name": "राष्ट्रीय कृषि विकास योजना",
+    "name_en": "Rashtriya Krishi Vikas Yojana - RAFTAAR",
+    "category": "Agriculture Development",
+    "description": "Centrally sponsored scheme providing states with flexibility and autonomy to plan and execute agricultural development programs. Supports modernization, infrastructure creation, value addition, and agri-entrepreneurship. Funding pattern: 60:40 (Centre:State) for general states, 90:10 for NE/hilly states, 100% for UTs.",
+    "eligibility": [
+      "State governments prepare District Agriculture Plans (DAPs) and State Agriculture Plans (SAPs)",
+      "Farmers can access benefits through state agriculture department programs",
+      "Agri-startups can apply through RKVY-RAFTAAR incubation centers",
+      "Individual farmers, SHGs, FPOs eligible for specific sub-schemes"
+    ],
+    "exclusion_criteria": "State must commit to increasing its own agriculture investment to be eligible for central funding.",
+    "benefits": "Farm mechanization subsidies. Warehouse and cold storage construction support. Food processing and agri-business development. Seed funding for agri-startups (up to Rs.25 lakh). Incubation and mentorship for agri-entrepreneurs. Micro-irrigation and technology adoption support. Training and capacity building for farmers.",
+    "how_to_apply": "1. Contact local Agriculture Department office or Krishi Vigyan Kendra (KVK)\n2. Check state agriculture portal for specific sub-schemes under RKVY\n3. For startups: apply through authorized agri-business incubation centers (R-ABIs)\n4. Submit project proposal as per state guidelines",
+    "documents_required": ["Aadhaar Card", "Land Records", "Bank Account", "Project Proposal (for startups)", "State-specific documents as required"],
+    "official_url": "https://rkvy.nic.in",
+    "helpline": "Contact State Agriculture Department",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "PKVY",
+    "name": "परम्परागत कृषि विकास योजना",
+    "name_en": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "category": "Organic Farming",
+    "description": "Sub-component of NMSA promoting organic farming through cluster-based approach. Groups of 50 or more farmers form clusters of 20 hectares each for organic farming, with each farmer allocated up to 1 hectare. Supports Participatory Guarantee System (PGS) certification for organic produce.",
+    "eligibility": [
+      "Groups of minimum 50 farmers willing to practice organic farming",
+      "Each farmer can cover up to 1 hectare under the scheme",
+      "Cluster of minimum 20 hectares is formed",
+      "Farmers must follow organic farming practices for 3 years to get PGS certification"
+    ],
+    "exclusion_criteria": "Individual farmers cannot apply; must form or join a cluster group.",
+    "benefits": "Rs.50,000 per hectare for 3 years (Rs.31,000 for organic inputs, Rs.8,800 for value addition/marketing, Rs.5,000 for PGS certification, Rs.5,200 for training). Free PGS-India organic certification. Training in organic farming techniques. Market linkage support for organic produce. Covers bio-fertilizers, bio-pesticides, organic manure, and vermicompost.",
+    "how_to_apply": "1. Form a group of 50+ farmers willing to practice organic farming\n2. Contact Block/District Agriculture Officer\n3. Register the cluster through state agriculture portal\n4. Receive training on organic farming methods\n5. Follow organic practices and maintain records for PGS certification",
+    "documents_required": ["Aadhaar Card", "Land Records", "Bank Account Details", "Group Formation Documents", "Declaration to follow organic practices"],
+    "official_url": "https://pgsindia-ncof.gov.in",
+    "helpline": "Contact District Agriculture Office",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "SMAM",
+    "name": "कृषि मशीनीकरण पर उप-मिशन",
+    "name_en": "Sub-Mission on Agricultural Mechanization (SMAM)",
+    "category": "Farm Mechanization",
+    "description": "Centrally sponsored scheme to boost farm mechanization, especially for small and marginal farmers. Provides subsidies for purchase of farm machinery, promotes Custom Hiring Centres (CHCs) and Farm Machinery Banks, and supports training and demonstrations of modern equipment.",
+    "eligibility": [
+      "Landholding farmer families",
+      "Self-Help Groups (SHGs) and user groups",
+      "Cooperative Societies and Farmer Producer Organizations (FPOs)",
+      "Entrepreneurs for setting up Custom Hiring Centres",
+      "Priority given to women farmers and small/marginal farmers"
+    ],
+    "exclusion_criteria": "Applicants who have already received subsidy for the same machinery under other central schemes are not eligible.",
+    "benefits": "Subsidy of 40-50% on purchase of agricultural machinery for individual farmers. Higher subsidies for SC/ST, women, and small/marginal farmers. Support for setting up Custom Hiring Centres (CHCs) and Farm Machinery Banks. Training and demonstration programs. Quality testing and certification of farm equipment. Direct Benefit Transfer (DBT) of subsidy amount.",
+    "how_to_apply": "1. Visit agrimachinery.nic.in portal\n2. Register and create farmer profile\n3. Select desired machinery and apply for subsidy\n4. Submit required documents\n5. Application verified by local agriculture department\n6. Upon approval, purchase machinery from authorized dealer\n7. Subsidy transferred to bank account via DBT",
+    "documents_required": ["Aadhaar Card", "Bank Account Details", "Land Ownership Records", "Caste Certificate (if applicable)", "Passport-size Photographs"],
+    "official_url": "https://agrimachinery.nic.in",
+    "helpline": "Contact State Agriculture Department",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "NFSM",
+    "name": "राष्ट्रीय खाद्य सुरक्षा मिशन",
+    "name_en": "National Food Security Mission (NFSM)",
+    "category": "Food Security & Production",
+    "description": "Centrally sponsored scheme to increase production and productivity of targeted food crops through area expansion, restoration of soil fertility, and dissemination of improved technologies. Covers Rice, Wheat, Pulses, Coarse Cereals (Maize, Barley), Nutri-Cereals (Jowar, Bajra, Ragi), Cotton, Sugarcane, and Jute.",
+    "eligibility": [
+      "All farmers are eligible to apply",
+      "Priority given to small and marginal farmers, women farmers, SC/ST farmers",
+      "Assistance limited to maximum 5 hectares per farmer per season",
+      "Implemented in specific identified districts with high potential"
+    ],
+    "exclusion_criteria": "Not available in all districts; limited to NFSM-notified districts.",
+    "benefits": "Subsidized certified/quality seeds and seed mini-kits. Integrated Nutrient Management (INM) support - bio-fertilizers, micronutrients. Integrated Pest Management (IPM) - bio-pesticides, pheromone traps. Farm implements and machinery subsidies. Sprinkler sets and pipeline support. Post-harvest equipment (dal mills, grading machines). Training and exposure visits for farmers.",
+    "how_to_apply": "1. Contact local Rural Agricultural Extension Officer or District Agriculture Office\n2. Register through state DBT agriculture portal\n3. Submit land records, Aadhaar, and bank details\n4. Select desired components (seeds, fertilizers, equipment)\n5. Benefit provided after verification",
+    "documents_required": ["Aadhaar Card", "Land Records (Khasra/B-1)", "Bank Passbook", "Caste Certificate (for SC/ST)", "Passport-size Photographs"],
+    "official_url": "https://www.nfsm.gov.in",
+    "helpline": "Contact District Agriculture Office",
+    "coverage": "Selected districts across India"
+  },
+  {
+    "scheme_id": "AIF",
+    "name": "कृषि अवसंरचना कोष",
+    "name_en": "Agriculture Infrastructure Fund (AIF)",
+    "category": "Infrastructure & Post-Harvest",
+    "description": "Central sector scheme providing medium to long-term debt financing for post-harvest management infrastructure and community farming assets. Offers interest subvention and credit guarantee support for projects like warehouses, cold storage, sorting/grading units, and supply chain infrastructure. Implementation period: 2020-21 to 2032-33.",
+    "eligibility": [
+      "Farmers and individual agri-entrepreneurs",
+      "Farmer Producer Organizations (FPOs)",
+      "Primary Agricultural Credit Societies (PACS)",
+      "Marketing Cooperative Societies",
+      "Self-Help Groups (SHGs) and Joint Liability Groups (JLGs)",
+      "Agri-startups",
+      "Public-Private Partnership (PPP) projects"
+    ],
+    "exclusion_criteria": "No capital/margin money subsidy under this scheme. Borrowers must contribute at least 10% of total project cost.",
+    "benefits": "3% per annum interest subvention on loans up to Rs.2 crore for 7 years. Credit guarantee coverage under CGTMSE for loans up to Rs.2 crore (fee paid by government). Supports warehouses, silos, cold storage, cold chain, ripening chambers, sorting/grading units, and processing facilities.",
+    "how_to_apply": "1. Visit agriinfra.dac.gov.in (AIF Portal) or JanSamarth portal\n2. Register and create profile\n3. Submit project proposal with detailed project report\n4. Apply through participating bank for loan\n5. Loan sanctioned after project appraisal\n6. Interest subvention automatically applied",
+    "documents_required": ["Aadhaar Card", "PAN Card", "Bank Account Details", "Detailed Project Report (DPR)", "Land Documents", "Registration Certificate (for FPOs/cooperatives)"],
+    "official_url": "https://agriinfra.dac.gov.in",
+    "helpline": "Contact participating bank or visit AIF portal",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "MIDH",
+    "name": "एकीकृत बागवानी विकास मिशन",
+    "name_en": "Mission for Integrated Development of Horticulture (MIDH)",
+    "category": "Horticulture",
+    "description": "Centrally sponsored scheme for holistic development of horticulture sector covering fruits, vegetables, root and tuber crops, mushrooms, spices, flowers, aromatic plants, coconut, cashew, cocoa, and bamboo. Provides support from production to post-harvest management including marketing.",
+    "eligibility": [
+      "All farmers growing horticultural crops",
+      "FPOs and cooperatives",
+      "Entrepreneurs for establishing nurseries, processing units",
+      "State Horticulture Missions implement the scheme"
+    ],
+    "exclusion_criteria": "Only horticulture crops covered; field crops not included.",
+    "benefits": "Subsidies for establishing new orchards and plantations (40-75% of cost). Support for protected cultivation (polyhouse, shade net). Drip and sprinkler irrigation subsidy. Post-harvest infrastructure (pack houses, cold rooms, ripening chambers). Organic farming support in horticulture. Honeybee colonies and beekeeping equipment. Training and technology dissemination.",
+    "how_to_apply": "1. Contact State Horticulture Mission or District Horticulture Officer\n2. Register through state horticulture portal\n3. Submit application with required documents\n4. Field verification by horticulture department\n5. Subsidy released after planting/establishment",
+    "documents_required": ["Aadhaar Card", "Land Records", "Bank Account Details", "Quotation from authorized nursery/supplier", "Passport-size Photographs"],
+    "official_url": "https://midh.gov.in",
+    "helpline": "Contact State Horticulture Mission",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "PMKSY-PDMC",
+    "name": "प्रति बूंद अधिक फसल",
+    "name_en": "Per Drop More Crop (Micro Irrigation under PMKSY)",
+    "category": "Irrigation & Water Conservation",
+    "description": "Component of Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) focusing on water use efficiency through micro irrigation techniques like drip and sprinkler irrigation. Aims to achieve 'more crop per drop' by promoting precision water application and reducing water wastage in agriculture.",
+    "eligibility": [
+      "All farmers are eligible, with priority to small and marginal farmers",
+      "Land must be suitable for micro irrigation installation",
+      "Water source must be available (borewell, well, canal, farm pond)",
+      "Priority to farmers in water-scarce and drought-prone areas"
+    ],
+    "exclusion_criteria": "Farmers who have already availed micro irrigation subsidy on the same land parcel.",
+    "benefits": "55% subsidy for small and marginal farmers. 45% subsidy for other farmers. Additional state subsidy (varies by state, total can reach 80-90%). Covers drip irrigation, sprinkler irrigation, micro sprinklers, rain guns, and fertigation systems. Reduces water usage by 30-60%. Increases crop yield by 20-40%. Saves labor and fertilizer costs.",
+    "how_to_apply": "1. Visit pmksy.gov.in or state micro irrigation portal\n2. Register with Aadhaar and land details\n3. Select type of micro irrigation system\n4. Get quotation from empanelled micro irrigation company\n5. Submit application online\n6. Field verification by agriculture/horticulture department\n7. System installed by authorized company\n8. Subsidy released to company or farmer account",
+    "documents_required": ["Aadhaar Card", "Land Records (7/12 extract or Khasra)", "Bank Account Details", "Water Source Details", "Quotation from empanelled company", "Caste Certificate (if applicable)"],
+    "official_url": "https://pmksy.gov.in",
+    "helpline": "Contact District Agriculture/Horticulture Office",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "INTEREST-SUBVENTION",
+    "name": "ब्याज छूट योजना",
+    "name_en": "Interest Subvention Scheme for Agriculture",
+    "category": "Agricultural Credit",
+    "description": "Scheme providing short-term crop loans to farmers at subsidized interest rates through commercial banks, cooperative banks, and Regional Rural Banks. Loans up to Rs.3 lakh at 7% interest with additional 3% subvention for timely repayment, making effective interest rate 4% per annum.",
+    "eligibility": [
+      "All farmers seeking short-term crop loans up to Rs.3 lakh",
+      "Must have a valid bank account",
+      "Applicable through commercial banks, cooperative banks, and RRBs",
+      "Crop loan must be for agricultural purposes"
+    ],
+    "exclusion_criteria": "Loans above Rs.3 lakh are at normal bank interest rates. Benefit not available if loan is not repaid promptly.",
+    "benefits": "2% interest subvention on crop loans up to Rs.3 lakh (rate reduced from 9% to 7%). Additional 3% prompt repayment incentive (effective rate becomes 4% per annum). Post-harvest loan facility for up to 6 months at same subsidized rate. Relief of 2% in case of natural calamities for the first year.",
+    "how_to_apply": "1. Visit nearest commercial bank, cooperative bank, or RRB\n2. Apply for short-term crop loan / KCC\n3. Interest subvention is automatically applied by the bank\n4. Ensure timely repayment to avail 3% additional incentive",
+    "documents_required": ["Aadhaar Card", "Land Records", "Bank Account Details", "Crop Details/Sowing Certificate"],
+    "official_url": "https://www.nabard.org",
+    "helpline": "Contact your bank branch",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "NMSA",
+    "name": "राष्ट्रीय सतत कृषि मिशन",
+    "name_en": "National Mission for Sustainable Agriculture (NMSA)",
+    "category": "Sustainable Agriculture",
+    "description": "Mission to make agriculture more productive, sustainable, and climate-resilient through integrated farming, soil and water conservation, and resource use efficiency. Promotes rainfed area development, soil health management, and climate change adaptation strategies in agriculture.",
+    "eligibility": [
+      "All farmers, with priority to rainfed area farmers",
+      "FPOs, cooperatives, and SHGs",
+      "State agriculture departments implement the scheme",
+      "Focus on 600+ identified rainfed districts"
+    ],
+    "exclusion_criteria": "Some components limited to rainfed areas only.",
+    "benefits": "Rainfed Area Development (RAD): integrated farming system models. Soil Health Management (SHM): soil testing labs, fertilizer quality control. On-Farm Water Management (OFWM): farm ponds, water harvesting structures. Climate Adaptation: drought/flood resistant crop varieties. Training on sustainable agriculture practices. Support for organic farming inputs.",
+    "how_to_apply": "1. Contact District Agriculture Office or KVK\n2. Register through state agriculture portal\n3. Apply for specific NMSA components relevant to your farm\n4. Field verification and approval by implementing agency",
+    "documents_required": ["Aadhaar Card", "Land Records", "Bank Account Details", "Farm Layout/Plan (for integrated farming)"],
+    "official_url": "https://nmsa.dac.gov.in",
+    "helpline": "Contact District Agriculture Office",
+    "coverage": "Pan India (focus on rainfed areas)"
+  },
+  {
+    "scheme_id": "NBHM",
+    "name": "राष्ट्रीय मधुमक्खी पालन एवं शहद मिशन",
+    "name_en": "National Beekeeping and Honey Mission (NBHM)",
+    "category": "Allied Activities",
+    "description": "Mission to promote scientific beekeeping to achieve the goal of 'Sweet Revolution'. Supports beekeeping as an additional income source for farmers while improving crop pollination. Covers bee colony development, honey processing, quality testing, and marketing infrastructure.",
+    "eligibility": [
+      "All farmers interested in beekeeping",
+      "FPOs and SHGs engaged in beekeeping",
+      "Entrepreneurs for honey processing/testing labs",
+      "Existing beekeepers for capacity enhancement"
+    ],
+    "exclusion_criteria": "None specific. Training is mandatory before receiving bee colonies.",
+    "benefits": "Free/subsidized bee colonies (Rs.2,000 per colony, 50% subsidy). Beekeeping equipment subsidy. Training on scientific beekeeping practices. Honey processing and testing infrastructure. Market linkage for honey and bee products. Pollination services income. Development of bee pasture/flora.",
+    "how_to_apply": "1. Contact nearest KVK, NBHM facility centre, or KVIC office\n2. Register for beekeeping training (mandatory)\n3. Apply for bee colonies and equipment subsidy\n4. Training provided on bee management, honey extraction\n5. Colonies and equipment distributed after training",
+    "documents_required": ["Aadhaar Card", "Bank Account Details", "Training Completion Certificate", "Land Details (optional)"],
+    "official_url": "https://nbhm.gov.in",
+    "helpline": "Contact NBHM/NBHM Facility Centre",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "ACABC",
+    "name": "कृषि-क्लिनिक और कृषि-व्यवसाय केंद्र",
+    "name_en": "Agri-Clinics and Agri-Business Centres (ACABC)",
+    "category": "Agri-Entrepreneurship",
+    "description": "Scheme to supplement public agricultural extension by supporting agriculture graduates to set up Agri-Clinics for expert advisory services and Agri-Business Centres for commercial agriculture ventures. Provides training, handholding, and credit-linked back-ended subsidy.",
+    "eligibility": [
+      "Agriculture graduates (BSc Agriculture, Horticulture, Sericulture, Veterinary, Forestry, Dairy, Fisheries, etc.)",
+      "Diploma holders in Agriculture and allied subjects",
+      "Biological science graduates with post-graduation in agri-related subjects",
+      "Intermediate in Agriculture (for some specific activities)"
+    ],
+    "exclusion_criteria": "Non-agriculture graduates without relevant qualifications.",
+    "benefits": "Free 60-day training (residential) through MANAGE-accredited institutes. Subsidy of 44% of project cost (for individual projects up to Rs.20 lakh). 36% subsidy for general category. Higher subsidy of 44% for women, SC/ST/NE candidates. Handholding and mentoring for 2 years. Bank loan facilitation for project setup.",
+    "how_to_apply": "1. Visit acabcmis.gov.in portal\n2. Register and apply for 60-day free training\n3. Complete training at nearest accredited institute\n4. Prepare Detailed Project Report (DPR) with help of trainers\n5. Apply for bank loan with DPR\n6. Subsidy released through bank after project establishment",
+    "documents_required": ["Agriculture Degree/Diploma Certificate", "Aadhaar Card", "Bank Account Details", "Detailed Project Report (DPR)", "Passport-size Photographs", "Caste Certificate (if applicable)"],
+    "official_url": "https://www.acabcmis.gov.in",
+    "helpline": "Contact MANAGE, Hyderabad: 040-24015253",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "PM-MATSYA",
+    "name": "प्रधानमंत्री मत्स्य संपदा योजना",
+    "name_en": "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+    "category": "Fisheries",
+    "description": "Flagship scheme for sustainable development of fisheries sector with an investment of Rs.20,050 crore. Aims to increase fish production by 70 lakh tonnes, generate 55 lakh employment, and double fishery exports by 2024-25. Covers inland, marine, and ornamental fisheries.",
+    "eligibility": [
+      "Fishers, fish farmers, and fish workers",
+      "Fish vendor/traders",
+      "SC/ST/Women/Differently-abled applicants get higher subsidies",
+      "Fisheries cooperatives and FPOs",
+      "Entrepreneurs in fisheries sector"
+    ],
+    "exclusion_criteria": "General category gets 40% subsidy; higher categories get 60%.",
+    "benefits": "40-60% subsidy for setting up fish ponds, tanks, cages, and raceways. Bio-floc and RAS (Recirculating Aquaculture System) support. Seaweed and ornamental fish farming. Cold chain, ice plants, and fish market infrastructure. Insurance coverage for fishers. Training and capacity building. Boat and net repair assistance.",
+    "how_to_apply": "1. Visit pmmsy.dof.gov.in portal\n2. Register with Aadhaar and fisheries department\n3. Select component and submit application\n4. Verified by district fisheries officer\n5. Subsidy released after project implementation",
+    "documents_required": ["Aadhaar Card", "Fisherman ID / Fisher registration", "Bank Account Details", "Land/Water Body Documents", "Project Proposal"],
+    "official_url": "https://pmmsy.dof.gov.in",
+    "helpline": "Contact State Fisheries Department",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "MGNREGA",
+    "name": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी योजना",
+    "name_en": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+    "category": "Rural Employment & Farm Infrastructure",
+    "description": "World's largest public works program guaranteeing 100 days of wage employment per year to rural household members willing to do unskilled manual work. Many activities are agriculture-related including farm ponds, land leveling, water harvesting structures, irrigation channels, and horticulture plantations.",
+    "eligibility": [
+      "Any adult member of a rural household",
+      "Must be willing to do unskilled manual work",
+      "Must be a resident of the rural area where work is demanded",
+      "Must have a Job Card issued by Gram Panchayat"
+    ],
+    "exclusion_criteria": "Urban areas are excluded. Work is limited to unskilled manual labor categories.",
+    "benefits": "Guaranteed 100 days of wage employment per year per household. Daily wage as per state notification (Rs.200-350 per day depending on state). Agriculture-related works: farm ponds (5m x 3m x 3m), land leveling, compost pits, vermicompost beds, irrigation channels, check dams, water harvesting structures. Individual beneficiary works on own land for SC/ST/small farmers. Unemployment allowance if work not provided within 15 days.",
+    "how_to_apply": "1. Visit Gram Panchayat office and apply for Job Card\n2. Job Card issued with photograph and details of family members\n3. Submit written demand for work to Gram Panchayat\n4. Work must be provided within 15 days of demand\n5. For individual farm works, apply through Gram Panchayat with land records",
+    "documents_required": ["Aadhaar Card", "Passport-size Photographs", "Address Proof", "Bank/Post Office Account Details", "Land Records (for individual beneficiary works)"],
+    "official_url": "https://nrega.nic.in",
+    "helpline": "1800-111-555 (Toll Free)",
+    "coverage": "All rural areas of India"
+  },
+  {
+    "scheme_id": "GODOWN-SCHEME",
+    "name": "ग्रामीण भंडारण योजना",
+    "name_en": "Gramin Bhandaran Yojana (Rural Godown Scheme)",
+    "category": "Storage Infrastructure",
+    "description": "Scheme to create scientific storage capacity in rural areas to prevent post-harvest losses, enable farmers to store produce and sell when prices are favorable, and facilitate pledge financing through Warehouse Receipt System. Subsidy for constructing warehouses with capacity 100 MT to 30,000 MT.",
+    "eligibility": [
+      "Individual farmers and group of farmers",
+      "Farmer Producer Organizations (FPOs) and cooperatives",
+      "Companies, corporations, and entrepreneurs",
+      "NGOs and SHGs",
+      "Central/State Warehousing Corporations"
+    ],
+    "exclusion_criteria": "Godown capacity must be between 100 MT and 30,000 MT. Must conform to NABARD/CWC specifications.",
+    "benefits": "25% subsidy of capital cost of project for general applicants. 33.33% subsidy for SC/ST, NE states, and hilly areas. Maximum subsidy of Rs.62.50 lakh per project. Warehouse Receipt System enables pledge financing (up to 70% of stored produce value). Scientific storage reduces post-harvest losses from 10-15% to less than 2%. Enables farmers to wait for better market prices.",
+    "how_to_apply": "1. Submit project proposal to nearest NABARD district office or commercial bank\n2. Bank appraises the project and sanctions loan\n3. Construct warehouse as per approved specifications\n4. NABARD releases subsidy to bank after construction and inspection\n5. Can also apply through state agriculture/marketing department",
+    "documents_required": ["PAN Card", "Land Documents (ownership/lease)", "Detailed Project Report", "Building Plan approved by competent authority", "Bank Loan Sanction Letter", "Registration Certificate (for companies/cooperatives)"],
+    "official_url": "https://www.nabard.org",
+    "helpline": "Contact nearest NABARD District Development Office",
+    "coverage": "Pan India (rural areas)"
+  },
+  {
+    "scheme_id": "ATMA",
+    "name": "कृषि प्रौद्योगिकी प्रबंधन एजेंसी",
+    "name_en": "Agricultural Technology Management Agency (ATMA)",
+    "category": "Extension & Technology Transfer",
+    "description": "District-level agency for agricultural technology dissemination and extension activities. Provides training, demonstrations, exposure visits, and farmer-to-farmer interactions to transfer improved agricultural technologies. Acts as the bridge between research institutions and farmers.",
+    "eligibility": [
+      "All farmers in the district",
+      "Farmer Interest Groups (FIGs) and Commodity Interest Groups (CIGs)",
+      "Farm women groups",
+      "Youth interested in agriculture"
+    ],
+    "exclusion_criteria": "None. Open to all farmers in the district.",
+    "benefits": "Free training programs on modern farming techniques. Exposure visits to progressive farms and research stations. Demonstration plots on farmers' fields. Farmer-to-farmer extension and knowledge sharing. Formation and support of Farmer Interest Groups (FIGs). Farmer advisory through KISAN call centres. Farm schools and farmer field schools. Information dissemination through ICT.",
+    "how_to_apply": "1. Contact Block Technology Manager (BTM) at block level\n2. Register as farmer with ATMA through local agriculture office\n3. Join Farmer Interest Group (FIG) relevant to your crop/activity\n4. Participate in training, demonstrations, and exposure visits\n5. Access advisory through KVK or KISAN call centre (1800-180-1551)",
+    "documents_required": ["Aadhaar Card", "Land Records", "Mobile Number"],
+    "official_url": "https://www.manage.gov.in",
+    "helpline": "KISAN Call Centre: 1800-180-1551 (Toll Free)",
+    "coverage": "Pan India (district level)"
+  },
+  {
+    "scheme_id": "NMOOP",
+    "name": "राष्ट्रीय तिलहन एवं ऑयल पाम मिशन",
+    "name_en": "National Mission on Oilseeds and Oil Palm (NMOOP)",
+    "category": "Oilseed Production",
+    "description": "Mission to increase production and productivity of oilseeds and oil palm to reduce India's dependence on edible oil imports. Covers Soybean, Groundnut, Rapeseed-Mustard, Sunflower, Safflower, Niger, Sesame, Linseed, Castor, and Oil Palm. Provides support for improved seeds, technology, and processing.",
+    "eligibility": [
+      "Farmers growing oilseed crops in notified districts",
+      "Farmers interested in oil palm cultivation",
+      "FPOs and cooperatives in oilseed sector",
+      "Oil processing entrepreneurs"
+    ],
+    "exclusion_criteria": "Limited to oilseed and oil palm crops; other crops not covered.",
+    "benefits": "Subsidized certified seeds of improved oilseed varieties (50% subsidy). Integrated Pest Management (IPM) inputs. Farm implements for oilseed cultivation. Oil palm planting material subsidy. Drip irrigation support for oil palm. Price support through MSP for oilseeds. Cluster demonstrations of improved varieties. Training on modern oilseed production technology.",
+    "how_to_apply": "1. Contact District Agriculture Office or Oilseed Development Officer\n2. Register through state agriculture DBT portal\n3. Apply for specific components (seeds, IPM, implements)\n4. Verification by field staff\n5. Subsidy/inputs provided after approval",
+    "documents_required": ["Aadhaar Card", "Land Records", "Bank Account Details", "Crop Sowing Declaration"],
+    "official_url": "https://nmoop.gov.in",
+    "helpline": "Contact District Agriculture Office",
+    "coverage": "Oilseed-growing states across India"
+  },
+  {
+    "scheme_id": "DAIRY-EDS",
+    "name": "डेयरी उद्यमिता विकास योजना",
+    "name_en": "Dairy Entrepreneurship Development Scheme (DEDS)",
+    "category": "Dairy & Animal Husbandry",
+    "description": "NABARD-implemented scheme to promote dairy entrepreneurship by providing capital subsidy for setting up small dairy farms, calf rearing, vermicompost production from cattle dung, and purchase of milking machines and milk processing equipment. Supports both individual entrepreneurs and groups.",
+    "eligibility": [
+      "Farmers, individual entrepreneurs, and unemployed youth",
+      "NGOs, SHGs, dairy cooperative societies",
+      "Companies, groups of organized/unorganized sector",
+      "No income ceiling for beneficiaries",
+      "One person can avail subsidy for more than one component"
+    ],
+    "exclusion_criteria": "Existing beneficiary of other dairy subsidy for same activity cannot apply for same component.",
+    "benefits": "25% subsidy for general category (33.33% for SC/ST). Small dairy units of 2-10 animals (Rs.7 lakh per unit for 10 animals). Calf rearing for heifer calves (Rs.4.80 lakh for 20 calves). Purchase of milking machines/milk testers (subsidy on equipment). Bulk milk cooling units (up to 5,000 litres). Dairy product processing equipment. Vermicompost units using cattle dung.",
+    "how_to_apply": "1. Contact nearest NABARD district office or commercial bank\n2. Submit project proposal with required documents\n3. Bank appraises project and sanctions loan\n4. Set up dairy unit as per approved plan\n5. NABARD releases back-ended subsidy to bank account",
+    "documents_required": ["Aadhaar Card", "PAN Card", "Land Documents", "Bank Account Details", "Project Report", "Veterinary Certificate (for animal purchase)", "Caste Certificate (if applicable)"],
+    "official_url": "https://www.nabard.org",
+    "helpline": "Contact nearest NABARD office or bank",
+    "coverage": "Pan India"
+  },
+  {
+    "scheme_id": "NEEM-UREA",
+    "name": "नीम लेपित यूरिया योजना",
+    "name_en": "Neem Coated Urea Scheme",
+    "category": "Fertilizer Management",
+    "description": "Government mandated that all urea produced must be neem coated to prevent diversion for non-agricultural use, improve nitrogen use efficiency, and reduce environmental pollution. Neem coating slows down nitrogen release, reducing requirement by 10-15% and improving crop yield.",
+    "eligibility": [
+      "All farmers purchasing urea for agricultural use",
+      "No special registration needed",
+      "Available at all authorized fertilizer retail outlets"
+    ],
+    "exclusion_criteria": "None. Available to all farmers.",
+    "benefits": "10-15% reduction in urea requirement due to slow-release nitrogen. Improved soil health and reduced soil degradation. Natural pest repellent properties of neem. Prevents diversion of subsidized urea for non-agriculture use. Available at same subsidized price as regular urea (Rs.242 per 45 kg bag). Better nitrogen use efficiency of 5-10%.",
+    "how_to_apply": "No separate application needed. Purchase neem coated urea directly from authorized fertilizer dealers. Verify the MRP on the bag and check for neem coating certification mark.",
+    "documents_required": ["Aadhaar Card (for sale through POS system)"],
+    "official_url": "https://fert.nic.in",
+    "helpline": "Contact nearest fertilizer dealer or District Agriculture Office",
+    "coverage": "Pan India"
+  }
+]

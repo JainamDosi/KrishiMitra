@@ -1,0 +1,38 @@
+# ========================================
+# KrishiMitra - Dependencies
+# ========================================
+
+# Core UI Server
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+
+# Spark & Delta Lake
+pyspark>=3.5.0
+delta-spark>=3.0.0
+
+# Deep Learning (Pre-trained Disease Detection)
+transformers>=4.30.0
+torch>=2.0.0
+Pillow>=10.0.0
+
+# ML Tracking
+mlflow>=2.10.0
+
+# Vector Search (RAG)
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+
+# Sarvam AI (Indian LLM)
+requests>=2.31.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Visualization
+plotly>=5.18.0
+
+# Utilities
+python-dotenv>=1.0.0
